@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize
+
+}
+.counter-box{
+    text-align: center;
+    background: #ffffff;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: .5rem;
+    margin: .5rem .25rem;
+    border:2px solid black;
+    box-shadow: 0px 5px black;
+    outline: none;
+    color: black;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize
+}
+
+
+.counter{
+    font-size: 6rem
+}
+
+
+
+
+.add:hover{
+    background-color: #4caf50;
+    color: black;
+}
